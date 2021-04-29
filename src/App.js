@@ -117,9 +117,9 @@ let pricedata = [
     }
 ]
 return <>
-<section class="pricing py-5">
-<div class="container">
-  <div class="row">
+<section className="pricing py-5">
+<div className="container">
+  <div className="row">
   {
   pricedata.map((obj) => <Message data={obj}></Message>)
   }
